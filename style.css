@@ -1,0 +1,39 @@
+:root {
+  --background-dark: #1A0B2E;
+  --primary-purple: #5D3A99;
+  --accent-lavender: #D8B8FF;
+  --text-light: #F5F0FF;
+}
+
+body {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+
+}
+
+section.hero {
+  /* Sizing & Background */
+  height: 100vh; 
+  background-image: url('./images/hero-bg.png'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.hero-content {
+  transform: translateY(-50px);
+}
+
+.tagline {
+  font-size: 38px;
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: black; 
+ 
+}
+
+.title {
+  font-size: 105px;
+  -webkit-text-stroke-width: 4px; 
+  -webkit-text-stroke-color: black; 
+}
